@@ -3,7 +3,7 @@ student_list = []
 
 
 def student_input():
-    num_stu = int(input("Enter the number of students: "))
+    num_stu = int(input("Enter number of students: "))
     for i in range(0, num_stu):
         print("Enter the information of student number", i + 1,)
         student_id = input("ID: ")
